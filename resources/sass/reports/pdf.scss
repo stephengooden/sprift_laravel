@@ -1,0 +1,159 @@
+@import 'common';
+
+@media print{
+	.full-row{
+		width: 100%;
+	}
+	.sec1{
+		position: relative;
+	}
+	.absoulute-logo{
+		  position: absolute;
+		  top: 20px;
+		  right: 20px;
+
+		  img{
+		    width: 125px;
+		  }
+		}
+	.mt-80{
+		margin-top: 70px;
+	}
+	
+	.mb-30{
+		margin-bottom: 20px;
+	}
+
+	.mb-20{
+		margin-bottom: 20px;
+	}
+
+	// section .graph-box {
+	//     max-width: 100% !important;
+	// }
+
+	#listed-propreties-by-value-bar, #listed-propreties-by-value-bar, #agency-bar{
+		// max-width: 90% !important;
+		// width: 90% !important;
+		overflow: visible !important;
+	}
+
+	.sec-table{
+	  .infogrey-table-row, .infogrey-table-row.bigit{
+		    & > div {
+		    	box-shadow: none !important;
+	    		outline: none !important;
+		      	height: auto;
+		      	margin: 5px;
+		    }
+
+		    & > div.date-box{
+		      height: auto;
+		      width: 100%;
+		      max-width: 5%;
+		      position: relative;
+		      span{
+		        display: block;
+		        position: relative;
+		        top: 50%;
+		        transform: translateY(-50%);
+						-moz-transform: translateY(-50%);
+						-ms-transform: translateY(-50%);
+						-o-transform: translateY(-50%);
+		      }
+		    }
+
+		    & > div.adrbox{
+		      height: auto;
+		      width: 100%;
+		      max-width: 40%;
+		      padding: 5px 15px;
+		      span.dateful{
+		        margin-bottom: 5px;
+		      }
+		      .type{
+		      	margin-bottom: 0px !important;
+		      	padding-bottom: 5px !important;
+		      }
+		      span.name{
+			      	p{
+			      		margin: 0;
+			        	text-align: left;
+			      }
+		  		}
+		    }
+
+		    & > div.pricebox{
+		      height: auto;
+		      width: 100%;
+		      max-width: 5%;
+		      padding: 5px 15px;
+		      span{
+		      	position: relative;
+		      	display: block;
+		        top: 50%;
+		        transform: translateY(-50%);
+						-moz-transform: translateY(-50%);
+						-ms-transform: translateY(-50%);
+						-o-transform: translateY(-50%);
+		      }
+		    }
+
+		    & > div.ownr-box{
+		      height: auto;
+      			width: 70%;
+      			max-width: 100%;
+		      position: relative;
+		      padding: 5px;
+		      box-sizing: border-box;
+		      p{
+		      	line-height: 1.4 !important;
+		        text-align: left;
+		        position: relative;
+		        margin: 0px;
+						top: 50%;
+		        transform: translateY(-50%);
+						-moz-transform: translateY(-50%);
+						-ms-transform: translateY(-50%);
+						-o-transform: translateY(-50%);
+		      }
+		    }
+
+		    & > div.ownr-box.planvald2{
+		      height: auto;
+      			width: 70%;
+      		max-width: 100%;
+		      position: relative;
+		      padding: 5px;
+		      box-sizing: border-box;
+		      p{
+		      	line-height: 1.4 !important;
+		        // line-height: 24px;
+		        position: relative;
+		        top: 50%;
+    				transform: translateY(-50%);
+		      }
+		    }
+
+		    & > div.outer-link{
+		      position: relative;
+		      width: 100%;
+		      max-width: 10%;
+		      height: auto;
+		      margin-left: 15px;
+		      a{
+		        // line-height: 36px;
+		        position: relative;
+		        top: 50%;
+    				transform: translateY(-50%);
+		        left: 0;
+		  //       top: 50%;
+		  //       transform: translateY(-50%);
+		  //       -moz-transform: translateY(-50%);
+				// -ms-transform: translateY(-50%);
+				// -o-transform: translateY(-50%);
+		      }
+		    }
+		  }
+		}
+	}
